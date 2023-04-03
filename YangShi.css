@@ -1,0 +1,36 @@
+#header {background-color: black;height: 10%; width:100%; color: white;}
+.header-table{width: 100%; height: 100%;}
+.header-left{width: 20%;color: white; text-align: center;}
+.header-center{width: 60%;background-color: gray; color: black;  text-align: center;}
+.inner-header-table {width: 100%;}
+.header-right{width: 20%; color: white;  text-align: center;}
+
+#content {background-color: rgb(8, 50, 170); height: 80%; width:100%; color: white;}
+.content-table{width: 100%; height: 100%;}
+.content-left{width: 20%;color: white; text-align: center;}
+.content-center{width: 60%; color: white;  text-align: center;}
+
+.inner-content-table1 {width: 100%; height: 50%; color: white;}
+.inner-content-table2 { width: 100%; height: 50%;  border: 6px solid gray; background-color: white; color: black;}
+.inner-content-table2-td{ border-right: 6px solid gray;}
+.inner-content-table2-tr{ margin-top: -10px;}
+.content-right{width: 20%; color: white;  text-align: center;}
+
+#footer {margin-top: -10px; background-color: rgb(8, 50, 170); height: 10%; width:100%; height: 10%; color: white;}
+.footer-table{width: 100%; height: 100%;}
+.footer-left{width: 20%;color: white; text-align: center;}
+.footer-center{width: 60%; background-color: black; color: white;  text-align: center;}
+.footer-right{width: 20%; color: white;  text-align: center;}
+
+.none-list{ list-style: none;}
+.copy-right{float: right;}
+img {
+    width: 30px;
+    height: 30px;
+}
+#grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+.transparent-border {border: 1px solid rgb(24, 19, 19);}
